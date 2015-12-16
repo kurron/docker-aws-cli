@@ -6,14 +6,9 @@ aws:
     container_name: "aws"
     net: "host"
     volumes:
-#       - /tmp/.X11-unix:/tmp/.X11-unix
         - /home/vagrant:/home/developer
     environment:
-#       DISPLAY: unix:0.0
         AWS_ACCESS_KEY_ID: OVERRIDE ME 
         AWS_SECRET_ACCESS_KEY: OVERRIDE_ME
         AWS_REGION: us-west-2
     user: 1000:1000
-#   stdin_open: true
-#   tty: true
-#   command: aws --version

@@ -17,8 +17,6 @@ ENV HOME /home/developer
 # the user of this image is expected to mount his actual home directory to this one
 VOLUME ["/home/developer"]
 
-ADD https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-linux-amd64-latest /usr/local/bin/ecs-cli 
-
 RUN pip install --upgrade pip python-dateutil awscli
 
 # Set the AWS environment variables

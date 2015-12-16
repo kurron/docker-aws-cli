@@ -9,8 +9,6 @@ CMD="docker run \
        --env AWS_REGION=$AWS_REGION \
        --user 1000:1000 \
        --volume $HOME:/home/developer \
-       --tty \
-       --interactive \
        kurron/docker-aws-cli:latest $*"
 
 echo $CMD
