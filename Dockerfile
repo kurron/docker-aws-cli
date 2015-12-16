@@ -28,4 +28,5 @@ ENV AWS_REGION us-west-2
 
 USER developer:developer
 WORKDIR /home/developer
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/usr/local/bin/aws"]
+CMD ["--version"]
