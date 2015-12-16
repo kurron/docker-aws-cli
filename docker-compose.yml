@@ -12,3 +12,4 @@ aws:
         AWS_SECRET_ACCESS_KEY: OVERRIDE_ME
         AWS_REGION: us-west-2
     user: 1000:1000
+    command: help
