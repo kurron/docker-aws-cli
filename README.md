@@ -1,6 +1,6 @@
 #Overview
 This project is a simple Docker image that runs the [AWS Command Line Interface](https://aws.amazon.com/cli/). 
-It saves you from having to install the required dependencies just run the command line.
+It saves you from having to install the required dependencies just to run the command line.
 
 #Prerequisites
 * a working [Docker](http://docker.io) engine
@@ -22,7 +22,7 @@ The `aws.sh` script expects 3 variables to be specified in the environment and p
 #Tips and Tricks
 
 ##Verifying The Image
-`docker-compose up` will launch the image allowing you to begin working on projects. The Docker Compose file is 
+`docker-compose up` will launch the image, verifying the image. The Docker Compose file is 
 configured to mount your home directory into the container.  
 
 ##Launching The Image
