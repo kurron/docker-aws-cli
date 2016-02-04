@@ -14,7 +14,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /tmp/*
 
-RUN pip install --upgrade pip python-dateutil awscli
+RUN pip install --upgrade python-dateutil awscli
 
 # Set the AWS environment variables
 ENV AWS_ACCESS_KEY_ID OVERRIDE ME

@@ -6,4 +6,6 @@ aws:
         AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
         AWS_REGION: ${AWS_REGION}
     user: 1000:1000
+    stdin_open: true
+    tty: false
     command: help
