@@ -2,7 +2,7 @@ FROM python:latest
 
 MAINTAINER Ron Kurr <kurr@kurron.org>
 
-LABEL org.kurron.ide.name="AWS CLI" org.kurron.ide.version=1.10.1
+LABEL org.kurron.ide.name="AWS CLI" org.kurron.ide.version=1.10.45
 
 ENV DEBIAN_FRONTEND noninteractive
 
